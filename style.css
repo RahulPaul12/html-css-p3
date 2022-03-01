@@ -1,0 +1,105 @@
+html{
+    text-align: center;
+    font-size:0.825em;
+    color:#fcfcfc;
+    background-color:#355664;
+    font-family:Arial, Helvetica, sans-serif;
+    }
+header,footer,
+article,section,
+hgroup,nav,
+figure{
+    /* Giving a display value to the HTML5 rendered elements: */
+    display:inline-block;
+}
+article hr{
+    /* The dividing line inside of the article is darker: */
+    background-color:hsl(197, 33%, 12%);
+    border-bottom-color:#204656;
+    margin:1.3em 0;
+}
+nav {
+    background:url(img/gradient_light.jpg) repeat-x 50% 50% #c7c7c7;
+    padding:0 5px;
+    position:relative;
+    text-align: center;
+    top:4em;
+    text-decoration: none;
+    border:1px solid #FCFCFC;
+
+    -moz-box-shadow:0 1px 1px #333333;
+    -webkit-box-shadow:0 1px 1px #333333;
+    box-shadow:0 1px 1px #333333;
+}
+nav ul li{
+    display:inline;
+}
+nav ul li a,
+nav ul li a:visited{
+    color:#565656;
+    display:block;
+    float:left;
+    font-size:1.25em;
+    font-weight:bold;
+    margin:5px 2px;
+    padding:7px 10px 4px;
+    text-shadow:0 1px 1px white;
+    text-transform:uppercase;
+    text-decoration: none;
+}
+nav :hover{
+    text-decoration:none;
+    background-color:#08bcdb;
+}
+#page{
+    width: 960px;
+    margin:0 auto;
+    position:relative;
+}
+nav, article, nav ul li a,figure{
+    /* Applying CSS3 rounded corners: */
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+}
+article{
+    
+    background-color:#213E4A;
+    margin:3em 0;
+    padding:20px;
+    text-align:left;
+    text-shadow:0 2px 0 black;
+}
+figure{
+    border: 3px solid #142830;
+   
+    height: 300px;
+    width: 500px;
+    margin-left:15px;
+    overflow:hidden;
+}
+figure:hover{
+    -moz-box-shadow:0 0 2px #4D7788;
+    -webkit-box-shadow:0 0 2px #4D7788;
+    box-shadow:0 0 2px #4D7788;
+}
+footer .line{
+    margin:2em 0;
+}
+figure img{
+    margin-left:-60px;
+}
+
+/* Footer styling: */
+
+footer{
+    display: block;
+    margin-bottom:30px;
+    text-align:center;
+    font-size:0.825em;
+}
+
+footer p{
+    margin-bottom:-2.5em;
+    position:relative;
+}
